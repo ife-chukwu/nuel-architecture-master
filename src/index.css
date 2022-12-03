@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+  transition: 2s linear all;
+}
+
+.note-parent:hover .note {
+  display: block;
+}
+.note-parent:hover .icon {
+  margin-top: -200px;
+}
+
+.parent-text:hover .text{
+  display: block;
+}
+
+.transparent{
+  background-color: transparent;
+}
+
+.parent-change:hover .change{
+  display: block;
+}
+
+.shadow{
+  text-shadow: 1px 1px 1px black;
+}
